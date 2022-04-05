@@ -1,4 +1,3 @@
-package introdução.exercicio2;
 import javax.swing.JOptionPane;
 public class OperacaoAri {
     public static void main(String[] args) {

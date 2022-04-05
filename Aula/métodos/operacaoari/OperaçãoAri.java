@@ -1,5 +1,4 @@
 // Solicitar ao usuário 2 números escolher uma das 4 operações artiméticas e calcular utilizando métodos
-package métodos.exercicio1;
 import javax.swing.JOptionPane;
 public class OperaçãoAri {
     public static void main(String[] args) {

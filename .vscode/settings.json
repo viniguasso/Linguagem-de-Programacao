@@ -1,6 +1,14 @@
 {
     "java.project.sourcePaths": [
+        "Avaliações/avaliacao01",
+        "Aula/revisao/ordenacao",
+        "Aula/métodos/operacaoari",
+        "Aula/métodos/aposentadoria",
+        "Aula/jogodavelha",
+        "Aula/introdução/operacaoari",
+        "Aula/introdução/exercicio1",
+        "Aula/introdução/classes",
         "Aula/Sorteador",
-        "Aula/avaliacao01"
+        "Aula/revisao/Revisao"
     ]
 }

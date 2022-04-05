@@ -1,4 +1,3 @@
-package introdução.exercicio1;
 import javax.swing.JOptionPane;
 public class Classes {
     public static void main(String[] args) {

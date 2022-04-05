@@ -1,8 +1,7 @@
 // Criar uma classe, em Java, para solicitar o nome, idade, e o genêro (M ou F) de uma pessoa e apresentar esses dados na tela.
 // Adicionalmente informe a idade mínima de aposentadoria para essa pessoa.
-package métodos.exercicio2;
 import javax.swing.JOptionPane;
-public class Aposentaria {
+public class Aposentadoria {
     public static void main(String[] args) {
         String nome = JOptionPane.showInputDialog("Digite seu nome: ");
         int idade = Integer.parseInt(solicitarDados("Digite sua idade: "));

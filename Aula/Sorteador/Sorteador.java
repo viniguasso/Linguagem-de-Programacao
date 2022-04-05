@@ -3,8 +3,9 @@ pedir para 5 pessoas escolherem 1 numero de (0 a 10); armazenar os n
 fazer o sorteio e verificar se há algum vencedor;
 caso haja, imprimir na tela; */
 
-import javax.swing.JOptionPane;
 import java.util.Random;
+
+import javax.swing.JOptionPane;
 
 public class Sorteador {
     public static void main(String[] args) {

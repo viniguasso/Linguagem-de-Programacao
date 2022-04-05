@@ -1,5 +1,5 @@
-package revisao.Atividade;
 import java.util.Arrays;
+
 import javax.swing.JOptionPane;
 
 public class Ordena {

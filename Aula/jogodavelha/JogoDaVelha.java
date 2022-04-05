@@ -1,5 +1,4 @@
 // Desenvolver, em Java, um jogo da velha em que o humano joga contra o cumputador
-package jogodavelha;
 import javax.swing.JOptionPane;
 
 public class JogoDaVelha {
