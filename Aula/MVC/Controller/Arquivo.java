@@ -1,14 +1,13 @@
-import java.io.File;
+package Controller;
+
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Arquivo {
 
     public void cadastrar(Criptomoeda criptomoeda, String nomeArquivo) {
         try {
-            File file = new File(nomeArquivo);
             FileWriter fileWriter = new FileWriter(nomeArquivo, true);
             fileWriter.write(criptomoeda.getNome() + ";" + criptomoeda.getDescricao() + ";" + criptomoeda.getAnoLancamento() + "\n");
             fileWriter.close();

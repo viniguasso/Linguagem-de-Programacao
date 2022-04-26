@@ -1,3 +1,5 @@
+package Model;
+
 public class Criptomoeda {
     private String nome;
     private String descricao;
