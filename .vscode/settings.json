@@ -1,19 +1,19 @@
 {
     "java.project.sourcePaths": [
         "Avaliações/avaliacao01",
+        "Aula/revisao_testesGlicemicos",
         "Aula/revisao/ordenacao",
+        "Aula/revisao/Revisao",
+        "Aula/orientacaoObjetos",
         "Aula/métodos/operacaoari",
         "Aula/métodos/aposentadoria",
         "Aula/jogodavelha",
         "Aula/introdução/operacaoari",
-        "Aula/introdução/exercicio1",
         "Aula/introdução/classes",
         "Aula/Sorteador",
-        "Aula/revisao/Revisao",
-        "Aula/orientacaoObjetos",
         "Aula/MVC",
         "Aula/Construtores",
         "Aula/Arquivo",
-        "Aula/revisao_testesGlicemicos"
+        "Atividades/Pessoa"
     ]
 }

@@ -35,11 +35,11 @@ public class Controller{
                     if (listaDadosGlicemicos.isEmpty()){
                         JOptionPane.showMessageDialog(null, "Carregue o arquivo de glicemia ou salve algum dado");
                     } else{
-                        GlicemiaView.exibir(listaDadosGlicemicos);
+                        src.Model.Glicemia.exibir(listaDadosGlicemicos);
                     }
                     break;
                 case "3" : //cadastrar glicemia
-                    GlicemiaView.cadastrar(listaDadosGlicemicos);
+                    src.Model.Glicemia.cadastrar(listaDadosGlicemicos);
                     
                     break;
                 case "7" : JOptionPane.showMessageDialog(null, "Obrigado por "

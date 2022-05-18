@@ -2,9 +2,15 @@ package Controller;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
+
 import javax.swing.JOptionPane;
 
+import Model.Glicemia;
+
 public class Arquivo {
+
+    public static List<Glicemia> dadosGlicemia;
 
     public void cadastrar(Criptomoeda criptomoeda, String nomeArquivo) {
         try {
