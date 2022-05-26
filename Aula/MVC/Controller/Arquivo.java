@@ -6,11 +6,11 @@ import java.util.List;
 
 import javax.swing.JOptionPane;
 
-import Model.Glicemia;
+import src.View.GlicemiaView;
 
 public class Arquivo {
 
-    public static List<Glicemia> dadosGlicemia;
+    public static List<GlicemiaView> dadosGlicemia;
 
     public void cadastrar(Criptomoeda criptomoeda, String nomeArquivo) {
         try {

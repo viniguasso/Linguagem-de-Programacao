@@ -10,10 +10,11 @@
         "Aula/jogodavelha",
         "Aula/introdução/operacaoari",
         "Aula/introdução/classes",
-        "Aula/Sorteador",
+        "Aula/sorteador",
         "Aula/MVC",
-        "Aula/Construtores",
+        "Aula/construtores",
         "Aula/Arquivo",
-        "Atividades/Pessoa"
+        "Atividades/Pessoa",
+        "Aula/herança"
     ]
 }

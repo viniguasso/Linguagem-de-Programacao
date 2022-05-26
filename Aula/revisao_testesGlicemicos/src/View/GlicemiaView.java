@@ -1,11 +1,13 @@
 package src.View;
 
-import Model.Glicemia;
-import Persistence.Storage;
+//import Model.Glicemia;
+//import Persistence.Storage;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import javax.swing.JOptionPane;
+
+import src.Model.Glicemia;
 
 /**
  * Classe de Visão para exibir dados de glicemia
@@ -37,6 +39,6 @@ public class GlicemiaView{
         String dataHora[] = dataFormatada.format(data).split(" ");
         
         lista.add(new Glicemia(glicemia,momento,dataHora[0],dataHora[1]));
-        Storage.gravarNoArquivo(lista);
+    //    Storage.gravarNoArquivo(lista);
     }
 }

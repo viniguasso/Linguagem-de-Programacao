@@ -1,12 +1,14 @@
 package src.Persistence;
 
-import Model.Glicemia;
+//import Model.Glicemia;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+
+import src.Model.Glicemia;
 
 /**
  *
@@ -20,19 +22,19 @@ public class Storage{
      * @param lista 
      */
     public static void popularListaDoArquivo(List<Glicemia> lista){
-        Glicemia glicemia;
-        String content="";
-        String line[];
+       // Glicemia glicemia;
+       // String content="";
+        //String line[];
         try{
             lista.clear();
             File file = new File("dadosGlicemia.txt");
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
-                content = scanner.nextLine();
-                line = content.split(";");
-                glicemia = new Glicemia(Integer.parseInt(line[0]),
-                                        line[1], line[2],line[3]);
-                lista.add(glicemia);
+             //   content = scanner.nextLine();
+              //  line = content.split(";");
+                //glicemia = new Glicemia(Integer.parseInt(line[0]),
+                //                        line[1], line[2],line[3]);
+                //lista.add(glicemia);
             }
             scanner.close();            
         } catch (IOException e){

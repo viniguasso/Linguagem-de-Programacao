@@ -1,10 +1,12 @@
 package src.Controller;
 
-import Model.Glicemia;
-import Persistence.Storage;
 import java.util.LinkedList;
 import java.util.List;
+
 import javax.swing.JOptionPane;
+
+import src.Model.Glicemia;
+//import src.Persistence.Storage;
 
 /**
  * Classe de controle da aplicação
@@ -29,17 +31,17 @@ public class Controller{
             
             switch (opcao){
                 case "1" : //popular
-                    Storage.popularListaDoArquivo(listaDadosGlicemicos);
+                    //Storage.popularListaDoArquivo(listaDadosGlicemicos);
                     break;
                 case "2" : //exibr
                     if (listaDadosGlicemicos.isEmpty()){
                         JOptionPane.showMessageDialog(null, "Carregue o arquivo de glicemia ou salve algum dado");
                     } else{
-                        src.Model.Glicemia.exibir(listaDadosGlicemicos);
+                     //   src.Model.Glicemia.exibir(listaDadosGlicemicos);
                     }
                     break;
                 case "3" : //cadastrar glicemia
-                    src.Model.Glicemia.cadastrar(listaDadosGlicemicos);
+                    //src.Model.Glicemia.cadastrar(listaDadosGlicemicos);
                     
                     break;
                 case "7" : JOptionPane.showMessageDialog(null, "Obrigado por "
