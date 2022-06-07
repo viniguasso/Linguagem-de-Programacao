@@ -2,7 +2,7 @@ package Controller;
 
 import javax.swing.JOptionPane;
 
-import Persistence.Storage;
+//import Persistence.Storage;
 
 public class Controller {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Controller {
 
             switch (opcao) {
                 case "1" : //popular
-                    Storage.popularListaDoArquivo(Arquivo.dadosGlicemia);
+                    //Storage.popularListaDoArquivo(Arquivo.dadosGlicemia);
                     break;
                 case "2" : //exibir
                     break;
