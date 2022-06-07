@@ -16,6 +16,7 @@
         "Aula/Arquivo",
         "Atividades/Pessoa",
         "Aula/herança",
-        "Aula/polimorfismo"
+        "Aula/polimorfismo",
+        "Aula/sockets"
     ]
 }

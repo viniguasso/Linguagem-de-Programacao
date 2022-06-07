@@ -28,5 +28,6 @@ public class Principal {
         else {
             System.out.println("Dados incompletos");
         } 
+        scanner.close();
     }
 }
