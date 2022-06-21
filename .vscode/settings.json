@@ -17,6 +17,8 @@
         "Atividades/Pessoa",
         "Aula/herança",
         "Aula/polimorfismo",
-        "Aula/sockets"
+        "Aula/sockets",
+        "Aula/criptografia",
+        "Aula/excecoes/throwspersonalizado"
     ]
 }
