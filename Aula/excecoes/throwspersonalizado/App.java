@@ -8,10 +8,6 @@ public class App {
     }
 
     public static void main(String[] args) throws SemLetraB {
-        try {
-            solicitarFrase();
-        } catch(SemLetraB e) {
-            solicitarFrase();
-        }
+        solicitarFrase();
     }
 }

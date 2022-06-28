@@ -1,24 +1,24 @@
 {
     "java.project.sourcePaths": [
         "Avaliações/avaliacao01",
+        "Aula/sockets",
         "Aula/revisao_testesGlicemicos",
         "Aula/revisao/ordenacao",
         "Aula/revisao/Revisao",
+        "Aula/polimorfismo",
         "Aula/orientacaoObjetos",
         "Aula/métodos/operacaoari",
         "Aula/métodos/aposentadoria",
         "Aula/jogodavelha",
         "Aula/introdução/operacaoari",
         "Aula/introdução/classes",
-        "Aula/sorteador",
+        "Aula/herança",
+        "Aula/excecoes/throwspersonalizado",
+        "Aula/criptografia",
         "Aula/MVC",
-        "Aula/construtores",
+        "Aula/Construtores",
         "Aula/Arquivo",
         "Atividades/Pessoa",
-        "Aula/herança",
-        "Aula/polimorfismo",
-        "Aula/sockets",
-        "Aula/criptografia",
-        "Aula/excecoes/throwspersonalizado"
+        "Avaliações/avaliacao02/ex1"
     ]
 }
