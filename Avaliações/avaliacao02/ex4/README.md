@@ -1,0 +1,1 @@
+4. Crie uma classe Calculadora com três métodos de soma (Overload - os métodos devem possuir o mesmo nome), um que retorne a soma de dois inteiros x e y, outro que retorne a soma três inteiros x,y,z e por fim um que retorne a soma dois double x e y. Em uma classe principal crie um objeto a partir da classe calculadora e exiba o resultado das 3 opções.
